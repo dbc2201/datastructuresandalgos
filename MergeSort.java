@@ -15,8 +15,6 @@ public class MergeSort {
             mergeSort(array, low, mid);
             mergeSort(array, mid + 1, high);
             merge(array, low, mid, high);
-        } else {
-            return;
         }
     }
 
